@@ -1,4 +1,6 @@
 def numeroPrimo(num):
+	if num<0:
+		mensaje="El número no es primo"
 	if num==1:
 		mensaje="El número no es primo"
 	elif num==2:
