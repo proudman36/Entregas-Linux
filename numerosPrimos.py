@@ -4,7 +4,7 @@ def numeroPrimo(num):
 	elif num==2:
 		mensaje="El número es primo"
 	else:
-		for i in range(2,num):
+		for i in range(2,num): #9 
 			residuo=num%i
 			if residuo==0:
 				mensaje="El número no es primo"
